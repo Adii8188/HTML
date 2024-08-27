@@ -1,0 +1,103 @@
+/* universal selector */
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:ghostwhite;
+}
+/* element selector */
+h1,h3 {
+    color:#b92b27;
+}
+p{
+    color:green;
+}
+/* id selector */
+#login{
+    color:blue;
+    background-color:white;
+}
+#signup{
+    color:#b92b27;
+    background-color:white;
+}
+/* class selector */
+.a{
+    background-color:greenyellow;
+    color:green;
+}
+/* descendant selector */
+p a{
+    color:olive;
+    background-color:burlywood;
+}
+/* 3 lavel descendant selectors  */
+nav ul li a{
+    color:palevioletred;
+}
+/* combinators  */
+p+h3{
+    text-decoration:underline;
+}
+.a + button{
+    color:blue;
+    background-color:aqua;
+} 
+/* child combinators  */
+div > input{
+    color:blueviolet;
+    background-color:antiquewhite
+}
+/* attribute selectors  */
+input[type="text"]{
+    color:coral;
+} 
+input[type="password"]{
+color:black;
+}
+/* only presence of attribute  */
+input[type]{
+    background-color:bisque;
+}
+/* hover pseudo class  */
+button:hover{
+    background-color:black;
+    color:white;
+}
+h3:hover{
+    text-decoration:none;
+}
+/* active pseudo class */
+button:Active{
+    background-color:hotpink;
+    color:black;
+}
+p:Active{
+    font-weight:bold;
+    color:darkgreen;
+} 
+/* checked pseudo class */
+input[type="radio"]:checked + label{
+    color:red;
+    font-weight:900;
+}
+/* nth of type pseudo class  */
+div:nth-of-type(){
+    background-color:aqua;
+}
+/* pseudo element  */
+h1::first-letter{
+    color:green;
+}
+p::first-line{  
+    color:blue;
+}
+/* selection  */
+p::selection{
+    background-color:yellowgreen;
+}
+/* cascading on css  */
+h3{
+    background-color:yellow;
+}
+h3{
+    background-color:blue ;
+}
