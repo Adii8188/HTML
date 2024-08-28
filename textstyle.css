@@ -1,0 +1,28 @@
+h1{
+    text-align:center;
+    text-decoration: red wavy underline;
+    letter-spacing:10px;
+    font-size:35px;
+    font-family:impact;
+}
+h2{
+    text-align:left/start ;
+    font-weight:normal;
+    text-decoration:double purple overline;
+    font-family:arial;
+}
+h3{
+    text-align:left/start  ;
+    /* text-decoration:green line-through; */
+    text-decoration:dotted line-through;
+    font-family:calibri;
+}
+p{
+    text-align:justify ;
+    font-weight:400;
+    line-height: 2.5;
+    font-size:13px;
+}
+a{
+    text-decoration:none;
+}
