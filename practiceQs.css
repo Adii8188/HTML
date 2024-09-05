@@ -1,15 +1,22 @@
-*{
-    background-color:whitesmoke; 
-    font-family:'Courier New', Courier, monospace;
+#outer{
+    height:200px;
+    width:70px;
+    border:2px solid black;
+    
 }
-h1{
-    color:#1b74e4;
+.div{
+    height:50px;
+    width:50px;
+    border:2px solid black;
+    margin:10px;
+    border-radius:50%;
 }
-#searchbtn{
-    background-color:black;
-    color:white;
+#red{
+    background-color:red;
 }
-.userbtn{
-    color:black;
-    background-color:aqua;
+#yellow{
+    background-color:yellow;
+}
+#green{
+    background-color:green;
 }
