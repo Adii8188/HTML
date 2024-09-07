@@ -1,20 +1,41 @@
-div{
-    height:150px;
-    width:300px;
-    background-color:grey;
-    border:5px dotted black;
-    margin:20px 1em 40px 2em;
-    padding:1em;
-}
-#divs{
-    height:100px;
+#box1{
     width:100px;
-    border:2px solid black;
-    border-radius:50%;
-    display:inline-block;
-    background-color:pink;
-}
-li{
-    display:inline;
+    height:100px;
+    background-color:green;
+    transition:2s ease-in 0.5s;
 }
 
+#box1:hover{
+    width:600px;
+}
+
+#box2{
+    width:100px;
+    height:100px;
+    background-color:red;
+    position:absolute;
+    top:200px;
+    right:200px;
+    transform:rotate(90deg);
+}
+#box3{
+    width:100px;
+    height:100px;
+    background-color:lightblue;
+    transform:skewx(20deg);
+}
+#box4{
+    width:100px;
+    height:100px;
+    background-color:lightgreen;
+    box-shadow:2px 2px 5px green;
+    
+}
+#mypic{
+    width:200px;
+    height:200px;
+    background-color:pink;
+    background-image:url("backgroundImage.jpg");
+    background-size:cover;
+    opacity:50%;
+}
