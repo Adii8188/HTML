@@ -1,0 +1,12 @@
+div{
+    height:100px;
+    width:200px;
+    background-color:burlywood;
+    margin:10px auto;
+    background-image:url("backgroundImage.jpg");
+   
+   /* background-size:contain; */
+   background-size:cover;
+   /* background-size:auto; */
+
+}
