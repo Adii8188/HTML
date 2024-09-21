@@ -1,0 +1,35 @@
+section{
+    margin-top:100px;
+}
+div{
+    height:50px;
+    width: 200px;
+    text-align:center;
+    background-color:crimson;
+    border:2px solid black;
+    margin:25px auto;
+}
+div:nth-of-type(2n){
+    background-color:chocolate;
+}
+div:nth-of-type(2n+1){
+    background-color:cornflowerblue;
+}
+
+/* transform */
+#one{
+    transform:rotate(45deg);
+}
+#two{
+    transform:scale(0.5,1.5);
+}
+#three{
+    /* transform:translate(100px,100px); */
+    transform:translate(-100px);
+}
+#four{
+    transform:skew(45deg);
+}
+#five{
+    transform:rotate(30deg) translatex(150px);
+}
